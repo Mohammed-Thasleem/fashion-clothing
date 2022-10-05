@@ -4,10 +4,8 @@ import Navigation from './routes/navigation/navigation.component';
 
 import Home from './routes/home/home.component';
 import Authentication from './routes/authentication/authentication.component';
-
-const Shop = () => {
-  return <h1>Shop</h1>
-}
+import Shop from './routes/shop/shop.component';
+  
 const App = () => {
   return(
     <Routes>
